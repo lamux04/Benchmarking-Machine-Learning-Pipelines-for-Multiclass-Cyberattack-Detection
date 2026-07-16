@@ -264,35 +264,145 @@ pip install -r requirements.txt
 
 ## Reproducing the Experiments
 
-The execution entry points are organized by project stage rather than in a generic `scripts/` directory.
+The experiments must be executed **sequentially** because the results of the preliminary phases determine the configuration used in the following stages.
 
-Use the actual filenames present in each `CIC17` folder. The intended workflow is:
+All commands below are intended to be run from the repository root.
+
+### 1. Clean and split the dataset
+
+First, clean the original CIC-IDS-2017 files and create the stratified development and hold-out partitions:
 
 ```bash
-# 1. Clean and prepare CIC-IDS-2017
 python 03_preprocessing/CIC17/01_clean_dataset.py
-python 03_preprocessing/CIC17/01_split_dataset.py
-
-# 2. Run the controlled benchmark
-python 04_experiments/CIC17/fase_A1_pca_components/A1__RobustScaler.py
-python 04_experiments/CIC17/fase_A1_pca_components/A1__StandardScaler.py
-python 04_experiments/CIC17/fase_A2_sampling_size/A1__StandardScaler.py
-
-# 3. Evaluate the selected pipelines on the untouched hold-out set
-python 04_experiments/CIC17/<holdout_entrypoint>.py
+python 03_preprocessing/CIC17/02_split_dataset.py
 ```
 
-Reusable functions imported by these scripts should remain under `02_src/CIC17/`, while generated metrics, tables and figures should be written to `05_results/CIC17/`.
+The cleaning script prepares the final feature set, while the split script reserves the untouched hold-out partition used for final evaluation.
 
-Each experiment should save:
+### 2. Phase A1 — Select the number of PCA components
 
-- configuration parameters;
-- random seed;
+Run the PCA component-selection experiment independently for each scaler:
+
+```bash
+python 04_experiments/CIC17/fase_A1_pca_components/A1_RobustScaler.py
+python 04_experiments/CIC17/fase_A1_pca_components/A1_StandardScaler.py
+```
+
+Review the generated results and select the minimum number of components required to retain at least 99% of cumulative explained variance for each scaler.
+
+In this project, the selected values were:
+
+- **RobustScaler:** 3 components
+- **StandardScaler:** 33 components
+
+### 3. Phase A2 — Select the rebalancing size
+
+Run all KNN experiments under:
+
+```text
+04_experiments/CIC17/fase_A2_sampling_size/knn/
+```
+
+The phase evaluates combinations of:
+
+- StandardScaler and RobustScaler;
+- NearMiss + SMOTE;
+- NearMiss + SMOTE + ENN;
+- RUS + SMOTE;
+- RUS + SMOTE + ENN.
+
+Each script compares the predefined sampling sizes and records predictive performance and computational cost.
+
+To run every Python experiment in the folder:
+
+```bash
+find 04_experiments/CIC17/fase_A2_sampling_size/knn \
+  -maxdepth 1 \
+  -type f \
+  -name "*.py" \
+  -print0 | sort -z | xargs -0 -n1 python
+```
+
+Review the results before continuing. The selected target in this project was **10,000 samples per class**.
+
+### 4. Phase B — Experiments with PCA
+
+Run the model experiments stored under:
+
+```text
+04_experiments/CIC17/fase_B_pca/
+├── knn/
+├── logreg/
+└── mlp/
+```
+
+Each model folder contains the combinations of scaler and rebalancing strategy evaluated with PCA.
+
+```bash
+for model in knn logreg mlp; do
+  find "04_experiments/CIC17/fase_B_pca/$model" \
+    -maxdepth 1 \
+    -type f \
+    -name "*.py" \
+    -print0 | sort -z | xargs -0 -n1 python
+done
+```
+
+After all experiments finish, build the phase comparison table:
+
+```bash
+python 04_experiments/CIC17/fase_B_pca/B_build_comparison_table.py
+```
+
+### 5. Phase C — Experiments without PCA
+
+Run the equivalent experiments without dimensionality reduction:
+
+```text
+04_experiments/CIC17/fase_C_no_pca/
+├── knn/
+├── logreg/
+└── mlp/
+```
+
+```bash
+for model in knn logreg mlp; do
+  find "04_experiments/CIC17/fase_C_no_pca/$model" \
+    -maxdepth 1 \
+    -type f \
+    -name "*.py" \
+    -print0 | sort -z | xargs -0 -n1 python
+done
+```
+
+After all experiments finish, build the comparison table:
+
+```bash
+python 04_experiments/CIC17/fase_C_no_pca/C_build_comparison_table.py
+```
+
+### 6. Review the generated results
+
+Outputs from every phase should be stored under:
+
+```text
+05_results/CIC17/
+```
+
+Review the cross-validation results from phases B and C to identify the strongest configuration for each model. The selected pipelines can then be retrained on the complete development set and evaluated on the untouched hold-out partition.
+
+Each experiment should preserve:
+
+- the pipeline configuration;
+- hyperparameters;
+- random seed, where applicable;
 - cross-validation metrics;
 - fit and scoring times;
 - hold-out metrics;
 - per-class classification reports;
 - confusion matrices.
+
+> The workflow is intentionally sequential. Do not run phases B or C before completing A1 and A2, because their selected parameters are required by the later experiments.
 
 ---
 
@@ -334,7 +444,7 @@ Computational times are environment-dependent and should not be interpreted as u
 
 ## Future Work
 
-- validate the methodology on CSE-CIC-IDS2018 and UNSW-NB15;
+- validate the methodology on CSE-CIC-IDS-2018 and BCCC-CIC-IDS-2017;
 - investigate cost-sensitive learning and class-weighted approaches;
 - evaluate Random Forest and gradient-boosting models;
 - compare deep learning architectures;
@@ -359,24 +469,14 @@ Computational times are environment-dependent and should not be interpreted as u
 - [Preprocessing pipeline](./03_preprocessing/CIC17/)
 
 ---
-
-## Citation
-
-When referencing this repository, use:
-
-```bibtex
-@software{labrador_cyberattack_detection,
-  author  = {Javier Labrador Muñoz},
-  title   = {Benchmarking Machine Learning Pipelines for Multiclass Cyberattack Detection},
-  year    = {2026},
-  url     = {<YOUR_REPOSITORY_URL>}
-}
-```
-
----
-
 ## License
 
-Add the license that matches how you want others to use the code.
+Copyright © 2026 Javier Labrador Muñoz.
 
-For a public portfolio repository, the **MIT License** is a common choice for source code. Dataset files remain subject to the original CIC-IDS-2017 terms and are not redistributed in this repository.
+The source code in this repository is licensed under the [PolyForm Noncommercial License 1.0.0](./LICENSE).
+
+You may use, study, modify and redistribute the code for permitted noncommercial purposes, provided that the license terms and required copyright notice are preserved.
+
+Commercial use is not permitted without prior written permission from the author.
+
+The CIC-IDS-2017 dataset is not included in this repository and remains subject to the terms established by its original provider.
