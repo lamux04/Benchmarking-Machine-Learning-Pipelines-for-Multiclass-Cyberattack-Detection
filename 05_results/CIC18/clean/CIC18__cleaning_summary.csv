@@ -1,0 +1,13 @@
+dataset,step,rows,columns,removed_rows,removed_columns
+CIC18,initial,16232952,84,,
+CIC18,homogenize_columns,16232952,84,0.0,0.0
+CIC18,remove_manual_columns,16232952,79,0.0,5.0
+CIC18,remove_infinite_and_empty_values,16232952,79,0.0,0.0
+CIC18,remove_duplicate_rows,12054032,79,4178920.0,0.0
+CIC18,handle_null_values_by_class,11982426,79,71606.0,0.0
+CIC18,remove_constant_columns,11982426,79,0.0,0.0
+CIC18,encode_string_columns,11982426,79,0.0,0.0
+CIC18,remove_highly_correlated_columns,11982426,55,0.0,24.0
+CIC18,undersample_benign_class,3477927,55,8504499.0,0.0
+CIC18,encode_label,3477927,55,0.0,0.0
+CIC18,remove_error_class,3477926,55,1.0,0.0

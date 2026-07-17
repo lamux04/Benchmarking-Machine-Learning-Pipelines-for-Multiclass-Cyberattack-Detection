@@ -1,0 +1,2 @@
+dataset,test_size,train_size,random_state,label_col
+CIC17,0.2,0.8,42,LABEL

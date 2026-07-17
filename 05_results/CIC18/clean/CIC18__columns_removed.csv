@@ -1,0 +1,30 @@
+dataset,step,column,reason,extra_info
+CIC18,remove_manual_columns,DST_IP,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+CIC18,remove_manual_columns,FLOW_ID,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+CIC18,remove_manual_columns,SRC_IP,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+CIC18,remove_manual_columns,SRC_PORT,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+CIC18,remove_manual_columns,TIMESTAMP,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+CIC18,remove_highly_correlated_columns,BWD_BLK_RATE_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,BWD_BYTS_B_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,BWD_PKTS_B_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,BWD_PSH_FLAGS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,BWD_SEG_SIZE_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,BWD_URG_FLAGS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,CWE_FLAG_COUNT,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,DOWN_UP_RATIO,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,ECE_FLAG_CNT,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FIN_FLAG_CNT,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FWD_BLK_RATE_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FWD_BYTS_B_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FWD_PKTS_B_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FWD_SEG_SIZE_AVG,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FWD_SEG_SIZE_MIN,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,FWD_URG_FLAGS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,IDLE_STD,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,PKT_LEN_MIN,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,PKT_LEN_VAR,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,SUBFLOW_BWD_BYTS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,SUBFLOW_BWD_PKTS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,SUBFLOW_FWD_BYTS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,SUBFLOW_FWD_PKTS,high_correlation,Correlation threshold: 0.95
+CIC18,remove_highly_correlated_columns,SYN_FLAG_CNT,high_correlation,Correlation threshold: 0.95

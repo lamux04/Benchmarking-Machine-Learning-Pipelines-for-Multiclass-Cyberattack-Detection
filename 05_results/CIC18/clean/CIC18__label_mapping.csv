@@ -1,0 +1,16 @@
+dataset,original_label,encoded_label
+CIC18,Benign,0
+CIC18,DDoS attacks-LOIC-HTTP,1
+CIC18,DDOS attack-HOIC,2
+CIC18,DoS attacks-Hulk,3
+CIC18,Bot,4
+CIC18,Infilteration,5
+CIC18,SSH-Bruteforce,6
+CIC18,DoS attacks-GoldenEye,7
+CIC18,DoS attacks-Slowloris,8
+CIC18,DDOS attack-LOIC-UDP,9
+CIC18,Brute Force -Web,10
+CIC18,Brute Force -XSS,11
+CIC18,SQL Injection,12
+CIC18,DoS attacks-SlowHTTPTest,13
+CIC18,FTP-BruteForce,14

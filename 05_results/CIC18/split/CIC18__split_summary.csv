@@ -1,0 +1,4 @@
+dataset,partition,rows,columns,proportion
+CIC18,original,3477926,55,1.0
+CIC18,train,2782339,55,0.7999994824501729
+CIC18,test,695587,55,0.20000051754982712

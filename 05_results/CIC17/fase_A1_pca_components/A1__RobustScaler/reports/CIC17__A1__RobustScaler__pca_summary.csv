@@ -1,0 +1,2 @@
+dataset,experiment,variance_threshold,selected_components,selected_cumulative_variance,n_samples,n_features,n_components_total,figure_path
+CIC17,A1__RobustScaler,0.99,3,0.9938344030474615,2016639,47,47,/home/javier/TFG/05_results/CIC17/fase_A1_pca_components/A1__RobustScaler/figures/CIC17__A1__RobustScaler__pca_cumulative_variance.pdf

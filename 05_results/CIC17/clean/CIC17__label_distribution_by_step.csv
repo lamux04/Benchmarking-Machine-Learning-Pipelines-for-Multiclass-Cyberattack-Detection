@@ -1,0 +1,136 @@
+dataset,step,label,count,proportion
+CIC17,homogenize_columns,BENIGN,2273097,0.8030036637024273
+CIC17,homogenize_columns,DoS Hulk,231073,0.08162980531966342
+CIC17,homogenize_columns,PortScan,158930,0.056144270249895524
+CIC17,homogenize_columns,DDoS,128027,0.04522734843820156
+CIC17,homogenize_columns,DoS GoldenEye,10293,0.003636147824087174
+CIC17,homogenize_columns,FTP-Patator,7938,0.0028042107672791206
+CIC17,homogenize_columns,SSH-Patator,5897,0.0020831986513788077
+CIC17,homogenize_columns,DoS slowloris,5796,0.002047518972933961
+CIC17,homogenize_columns,DoS Slowhttptest,5499,0.0019425995224575314
+CIC17,homogenize_columns,Bot,1966,0.000694517305173942
+CIC17,homogenize_columns,Web Attack � Brute Force,1507,0.0005323690635285507
+CIC17,homogenize_columns,Web Attack � XSS,652,0.00023032822124791972
+CIC17,homogenize_columns,Infiltration,36,1.2717509148658144e-05
+CIC17,homogenize_columns,Web Attack � Sql Injection,21,7.418547003383917e-06
+CIC17,homogenize_columns,Heartbleed,11,3.885905573201099e-06
+CIC17,remove_manual_columns,BENIGN,2273097,0.8030036637024273
+CIC17,remove_manual_columns,DoS Hulk,231073,0.08162980531966342
+CIC17,remove_manual_columns,PortScan,158930,0.056144270249895524
+CIC17,remove_manual_columns,DDoS,128027,0.04522734843820156
+CIC17,remove_manual_columns,DoS GoldenEye,10293,0.003636147824087174
+CIC17,remove_manual_columns,FTP-Patator,7938,0.0028042107672791206
+CIC17,remove_manual_columns,SSH-Patator,5897,0.0020831986513788077
+CIC17,remove_manual_columns,DoS slowloris,5796,0.002047518972933961
+CIC17,remove_manual_columns,DoS Slowhttptest,5499,0.0019425995224575314
+CIC17,remove_manual_columns,Bot,1966,0.000694517305173942
+CIC17,remove_manual_columns,Web Attack � Brute Force,1507,0.0005323690635285507
+CIC17,remove_manual_columns,Web Attack � XSS,652,0.00023032822124791972
+CIC17,remove_manual_columns,Infiltration,36,1.2717509148658144e-05
+CIC17,remove_manual_columns,Web Attack � Sql Injection,21,7.418547003383917e-06
+CIC17,remove_manual_columns,Heartbleed,11,3.885905573201099e-06
+CIC17,remove_infinite_and_empty_values,BENIGN,2273097,0.8030036637024273
+CIC17,remove_infinite_and_empty_values,DoS Hulk,231073,0.08162980531966342
+CIC17,remove_infinite_and_empty_values,PortScan,158930,0.056144270249895524
+CIC17,remove_infinite_and_empty_values,DDoS,128027,0.04522734843820156
+CIC17,remove_infinite_and_empty_values,DoS GoldenEye,10293,0.003636147824087174
+CIC17,remove_infinite_and_empty_values,FTP-Patator,7938,0.0028042107672791206
+CIC17,remove_infinite_and_empty_values,SSH-Patator,5897,0.0020831986513788077
+CIC17,remove_infinite_and_empty_values,DoS slowloris,5796,0.002047518972933961
+CIC17,remove_infinite_and_empty_values,DoS Slowhttptest,5499,0.0019425995224575314
+CIC17,remove_infinite_and_empty_values,Bot,1966,0.000694517305173942
+CIC17,remove_infinite_and_empty_values,Web Attack � Brute Force,1507,0.0005323690635285507
+CIC17,remove_infinite_and_empty_values,Web Attack � XSS,652,0.00023032822124791972
+CIC17,remove_infinite_and_empty_values,Infiltration,36,1.2717509148658144e-05
+CIC17,remove_infinite_and_empty_values,Web Attack � Sql Injection,21,7.418547003383917e-06
+CIC17,remove_infinite_and_empty_values,Heartbleed,11,3.885905573201099e-06
+CIC17,remove_duplicate_rows,BENIGN,2096484,0.8311590485425961
+CIC17,remove_duplicate_rows,DoS Hulk,172849,0.06852664288472471
+CIC17,remove_duplicate_rows,DDoS,128016,0.0507524296671136
+CIC17,remove_duplicate_rows,PortScan,90819,0.03600553766667909
+CIC17,remove_duplicate_rows,DoS GoldenEye,10286,0.004077923787307294
+CIC17,remove_duplicate_rows,FTP-Patator,5933,0.0023521603956926087
+CIC17,remove_duplicate_rows,DoS slowloris,5385,0.002134903713265582
+CIC17,remove_duplicate_rows,DoS Slowhttptest,5228,0.002072660466657839
+CIC17,remove_duplicate_rows,SSH-Patator,3219,0.0012761847823587573
+CIC17,remove_duplicate_rows,Bot,1953,0.0007742742714963197
+CIC17,remove_duplicate_rows,Web Attack � Brute Force,1470,0.0005827870860724987
+CIC17,remove_duplicate_rows,Web Attack � XSS,652,0.00025848787763215587
+CIC17,remove_duplicate_rows,Infiltration,36,1.427233680177548e-05
+CIC17,remove_duplicate_rows,Web Attack � Sql Injection,21,8.325529801035697e-06
+CIC17,remove_duplicate_rows,Heartbleed,11,4.360991800542507e-06
+CIC17,handle_null_values_by_class,BENIGN,2095057,0.831108640993844
+CIC17,handle_null_values_by_class,DoS Hulk,172846,0.06856796934938857
+CIC17,handle_null_values_by_class,DDoS,128014,0.05078312502628136
+CIC17,handle_null_values_by_class,PortScan,90694,0.035978289414701214
+CIC17,handle_null_values_by_class,DoS GoldenEye,10286,0.004080453888014827
+CIC17,handle_null_values_by_class,FTP-Patator,5931,0.0023528263668885804
+CIC17,handle_null_values_by_class,DoS slowloris,5385,0.002136228289613051
+CIC17,handle_null_values_by_class,DoS Slowhttptest,5228,0.0020739464249019558
+CIC17,handle_null_values_by_class,SSH-Patator,3219,0.0012769765764650718
+CIC17,handle_null_values_by_class,Bot,1948,0.0007727711621478595
+CIC17,handle_null_values_by_class,Web Attack � Brute Force,1470,0.0005831486695879638
+CIC17,handle_null_values_by_class,Web Attack � XSS,652,0.00025864825344989957
+CIC17,handle_null_values_by_class,Infiltration,36,1.4281191908276665e-05
+CIC17,handle_null_values_by_class,Web Attack � Sql Injection,21,8.330695279828055e-06
+CIC17,handle_null_values_by_class,Heartbleed,11,4.363697527528981e-06
+CIC17,remove_constant_columns,BENIGN,2095057,0.831108640993844
+CIC17,remove_constant_columns,DoS Hulk,172846,0.06856796934938857
+CIC17,remove_constant_columns,DDoS,128014,0.05078312502628136
+CIC17,remove_constant_columns,PortScan,90694,0.035978289414701214
+CIC17,remove_constant_columns,DoS GoldenEye,10286,0.004080453888014827
+CIC17,remove_constant_columns,FTP-Patator,5931,0.0023528263668885804
+CIC17,remove_constant_columns,DoS slowloris,5385,0.002136228289613051
+CIC17,remove_constant_columns,DoS Slowhttptest,5228,0.0020739464249019558
+CIC17,remove_constant_columns,SSH-Patator,3219,0.0012769765764650718
+CIC17,remove_constant_columns,Bot,1948,0.0007727711621478595
+CIC17,remove_constant_columns,Web Attack � Brute Force,1470,0.0005831486695879638
+CIC17,remove_constant_columns,Web Attack � XSS,652,0.00025864825344989957
+CIC17,remove_constant_columns,Infiltration,36,1.4281191908276665e-05
+CIC17,remove_constant_columns,Web Attack � Sql Injection,21,8.330695279828055e-06
+CIC17,remove_constant_columns,Heartbleed,11,4.363697527528981e-06
+CIC17,encode_string_columns,BENIGN,2095057,0.831108640993844
+CIC17,encode_string_columns,DoS Hulk,172846,0.06856796934938857
+CIC17,encode_string_columns,DDoS,128014,0.05078312502628136
+CIC17,encode_string_columns,PortScan,90694,0.035978289414701214
+CIC17,encode_string_columns,DoS GoldenEye,10286,0.004080453888014827
+CIC17,encode_string_columns,FTP-Patator,5931,0.0023528263668885804
+CIC17,encode_string_columns,DoS slowloris,5385,0.002136228289613051
+CIC17,encode_string_columns,DoS Slowhttptest,5228,0.0020739464249019558
+CIC17,encode_string_columns,SSH-Patator,3219,0.0012769765764650718
+CIC17,encode_string_columns,Bot,1948,0.0007727711621478595
+CIC17,encode_string_columns,Web Attack � Brute Force,1470,0.0005831486695879638
+CIC17,encode_string_columns,Web Attack � XSS,652,0.00025864825344989957
+CIC17,encode_string_columns,Infiltration,36,1.4281191908276665e-05
+CIC17,encode_string_columns,Web Attack � Sql Injection,21,8.330695279828055e-06
+CIC17,encode_string_columns,Heartbleed,11,4.363697527528981e-06
+CIC17,remove_highly_correlated_columns,BENIGN,2095057,0.831108640993844
+CIC17,remove_highly_correlated_columns,DoS Hulk,172846,0.06856796934938857
+CIC17,remove_highly_correlated_columns,DDoS,128014,0.05078312502628136
+CIC17,remove_highly_correlated_columns,PortScan,90694,0.035978289414701214
+CIC17,remove_highly_correlated_columns,DoS GoldenEye,10286,0.004080453888014827
+CIC17,remove_highly_correlated_columns,FTP-Patator,5931,0.0023528263668885804
+CIC17,remove_highly_correlated_columns,DoS slowloris,5385,0.002136228289613051
+CIC17,remove_highly_correlated_columns,DoS Slowhttptest,5228,0.0020739464249019558
+CIC17,remove_highly_correlated_columns,SSH-Patator,3219,0.0012769765764650718
+CIC17,remove_highly_correlated_columns,Bot,1948,0.0007727711621478595
+CIC17,remove_highly_correlated_columns,Web Attack � Brute Force,1470,0.0005831486695879638
+CIC17,remove_highly_correlated_columns,Web Attack � XSS,652,0.00025864825344989957
+CIC17,remove_highly_correlated_columns,Infiltration,36,1.4281191908276665e-05
+CIC17,remove_highly_correlated_columns,Web Attack � Sql Injection,21,8.330695279828055e-06
+CIC17,remove_highly_correlated_columns,Heartbleed,11,4.363697527528981e-06
+CIC17,encode_label,0,2095057,0.831108640993844
+CIC17,encode_label,1,172846,0.06856796934938857
+CIC17,encode_label,2,128014,0.05078312502628136
+CIC17,encode_label,3,90694,0.035978289414701214
+CIC17,encode_label,4,10286,0.004080453888014827
+CIC17,encode_label,5,5931,0.0023528263668885804
+CIC17,encode_label,6,5385,0.002136228289613051
+CIC17,encode_label,7,5228,0.0020739464249019558
+CIC17,encode_label,8,3219,0.0012769765764650718
+CIC17,encode_label,9,1948,0.0007727711621478595
+CIC17,encode_label,10,1470,0.0005831486695879638
+CIC17,encode_label,11,652,0.00025864825344989957
+CIC17,encode_label,12,36,1.4281191908276665e-05
+CIC17,encode_label,13,21,8.330695279828055e-06
+CIC17,encode_label,14,11,4.363697527528981e-06

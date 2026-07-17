@@ -1,0 +1,32 @@
+dataset,step,column,reason,extra_info
+CIC17,remove_constant_columns,BWD_AVG_BULK_RATE,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,BWD_AVG_BYTES_BULK,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,BWD_AVG_PACKETS_BULK,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,BWD_PSH_FLAGS,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,BWD_URG_FLAGS,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,FWD_AVG_BULK_RATE,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,FWD_AVG_BYTES_BULK,constant_column,Columns with a single value or zero variance.
+CIC17,remove_constant_columns,FWD_AVG_PACKETS_BULK,constant_column,Columns with a single value or zero variance.
+CIC17,remove_highly_correlated_columns,AVERAGE_PACKET_SIZE,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,AVG_BWD_SEGMENT_SIZE,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,AVG_FWD_SEGMENT_SIZE,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,BWD_PACKET_LENGTH_MEAN,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,BWD_PACKET_LENGTH_STD,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,CWE_FLAG_COUNT,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,ECE_FLAG_COUNT,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,FWD_HEADER_LENGTH.1,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,FWD_IAT_MAX,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,FWD_IAT_TOTAL,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,FWD_PACKETS_S,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,FWD_PACKET_LENGTH_STD,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,IDLE_MAX,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,IDLE_MEAN,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,IDLE_MIN,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,PACKET_LENGTH_STD,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,SUBFLOW_BWD_BYTES,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,SUBFLOW_BWD_PACKETS,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,SUBFLOW_FWD_BYTES,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,SUBFLOW_FWD_PACKETS,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,SYN_FLAG_COUNT,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,TOTAL_BACKWARD_PACKETS,high_correlation,Correlation threshold: 0.95
+CIC17,remove_highly_correlated_columns,TOTAL_LENGTH_OF_BWD_PACKETS,high_correlation,Correlation threshold: 0.95

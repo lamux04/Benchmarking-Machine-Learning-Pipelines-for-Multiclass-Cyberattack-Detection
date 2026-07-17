@@ -1,0 +1,11 @@
+dataset,step,rows,columns,removed_rows,removed_columns
+BCCC17,initial,2438052,122,,
+BCCC17,homogenize_columns,2438052,122,0.0,0.0
+BCCC17,remove_manual_columns,2438052,117,0.0,5.0
+BCCC17,remove_infinite_and_empty_values,2438052,117,0.0,0.0
+BCCC17,remove_duplicate_rows,2363699,117,74353.0,0.0
+BCCC17,handle_null_values_by_class,2363699,117,0.0,0.0
+BCCC17,remove_constant_columns,2363699,114,0.0,3.0
+BCCC17,encode_string_columns,2363699,114,0.0,0.0
+BCCC17,remove_highly_correlated_columns,2363699,64,0.0,50.0
+BCCC17,encode_label,2363699,64,0.0,0.0

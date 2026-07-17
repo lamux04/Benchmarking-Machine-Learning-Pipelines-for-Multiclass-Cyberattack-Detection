@@ -1,0 +1,59 @@
+dataset,step,column,reason,extra_info
+BCCC17,remove_manual_columns,DST_IP,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+BCCC17,remove_manual_columns,FLOW_ID,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+BCCC17,remove_manual_columns,SRC_IP,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+BCCC17,remove_manual_columns,SRC_PORT,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+BCCC17,remove_manual_columns,TIMESTAMP,manual_removal,"Columns removed because they are identifiers, IP addresses, ports, or non-generalizable attributes."
+BCCC17,remove_constant_columns,BWD_URG_FLAG_COUNTS,constant_column,Columns with a single value or zero variance.
+BCCC17,remove_constant_columns,FWD_URG_FLAG_COUNTS,constant_column,Columns with a single value or zero variance.
+BCCC17,remove_constant_columns,URG_FLAG_COUNTS,constant_column,Columns with a single value or zero variance.
+BCCC17,remove_highly_correlated_columns,ACK_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,ACTIVE_STD,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,AVG_BWD_PACKETS_BULK_RATE,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,AVG_SEGMENT_SIZE,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_ACK_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_AVG_SEGMENT_SIZE,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_BULK_DURATION,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_BULK_PER_PACKET,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_BULK_TOTAL_SIZE,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_ECE_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_MEAN_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_MIN_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PACKETS_COUNT,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PACKETS_IAT_MAX,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PACKETS_IAT_MIN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PACKETS_IAT_STD,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PACKETS_IAT_TOTAL,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PAYLOAD_BYTES_MAX,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PAYLOAD_BYTES_MEAN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PAYLOAD_BYTES_MIN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PAYLOAD_BYTES_STD,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PAYLOAD_BYTES_VARIANCE,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_PSH_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_TOTAL_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,BWD_TOTAL_PAYLOAD_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_ACK_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_CWR_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_ECE_FLAG_COUNTS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_MEAN_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PACKETS_COUNT,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PACKETS_IAT_MAX,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PACKETS_IAT_MIN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PACKETS_IAT_TOTAL,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PAYLOAD_BYTES_MAX,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PAYLOAD_BYTES_MEAN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PAYLOAD_BYTES_MIN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_PAYLOAD_BYTES_STD,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,FWD_TOTAL_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,IDLE_MAX,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,IDLE_MEAN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,MEAN_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,PACKET_IAT_MAX,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,PACKET_IAT_MIN,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,PACKET_IAT_STD,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,PACKET_IAT_TOTAL,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,PAYLOAD_BYTES_STD,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,SUBFLOW_BWD_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,SUBFLOW_BWD_PACKETS,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,TOTAL_HEADER_BYTES,high_correlation,Correlation threshold: 0.95
+BCCC17,remove_highly_correlated_columns,TOTAL_PAYLOAD_BYTES,high_correlation,Correlation threshold: 0.95

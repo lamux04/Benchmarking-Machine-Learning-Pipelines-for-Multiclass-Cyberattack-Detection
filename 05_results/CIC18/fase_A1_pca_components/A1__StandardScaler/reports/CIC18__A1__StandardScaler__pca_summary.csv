@@ -1,0 +1,2 @@
+dataset,experiment,variance_threshold,selected_components,selected_cumulative_variance,n_samples,n_features,n_components_total,figure_path
+CIC18,A1__StandardScaler,0.99,44,0.9913593210048386,2782339,54,54,/home/javier/TFG/05_results/CIC18/fase_A1_pca_components/A1__StandardScaler/figures/CIC18__A1__StandardScaler__pca_cumulative_variance.pdf

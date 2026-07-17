@@ -1,0 +1,128 @@
+Cargando dataset de entrenamiento...
+Iniciando validacion cruzada...
+================================================================================
+n = 500
+================================================================================
+Fold 1/5
+B -> acc=0.112678, f1_macro=0.121377, mcc=0.100948, fpr_macro=0.063461, fnr_macro=0.505091, auc=0.507685, latency=0.000001787s
+Fold 2/5
+B -> acc=0.109392, f1_macro=0.127364, mcc=0.119661, fpr_macro=0.062777, fnr_macro=0.453074, auc=0.506133, latency=0.000001912s
+Fold 3/5
+B -> acc=0.117044, f1_macro=0.126999, mcc=0.124924, fpr_macro=0.061688, fnr_macro=0.481051, auc=0.534573, latency=0.000001791s
+Fold 4/5
+B -> acc=0.113959, f1_macro=0.128106, mcc=0.119602, fpr_macro=0.063009, fnr_macro=0.471470, auc=0.513769, latency=0.000001803s
+Fold 5/5
+B -> acc=0.110082, f1_macro=0.171143, mcc=0.101432, fpr_macro=0.064501, fnr_macro=0.518216, auc=0.466051, latency=0.000001804s
+================================================================================
+n = 1000
+================================================================================
+Fold 1/5
+B -> acc=0.120113, f1_macro=0.135844, mcc=0.098411, fpr_macro=0.064116, fnr_macro=0.411681, auc=0.496905, latency=0.000003022s
+Fold 2/5
+B -> acc=0.114691, f1_macro=0.207017, mcc=0.116432, fpr_macro=0.063979, fnr_macro=0.365550, auc=0.500888, latency=0.000003004s
+Fold 3/5
+B -> acc=0.125325, f1_macro=0.152162, mcc=0.135046, fpr_macro=0.060959, fnr_macro=0.401005, auc=0.521229, latency=0.000002978s
+Fold 4/5
+B -> acc=0.128007, f1_macro=0.212896, mcc=0.129334, fpr_macro=0.062518, fnr_macro=0.375024, auc=0.507513, latency=0.000002986s
+Fold 5/5
+B -> acc=0.121539, f1_macro=0.206502, mcc=0.110586, fpr_macro=0.064437, fnr_macro=0.421528, auc=0.495816, latency=0.000003120s
+================================================================================
+n = 2000
+================================================================================
+Fold 1/5
+B -> acc=0.125550, f1_macro=0.201440, mcc=0.113523, fpr_macro=0.061733, fnr_macro=0.369863, auc=0.521759, latency=0.000005579s
+Fold 2/5
+B -> acc=0.115353, f1_macro=0.205114, mcc=0.129437, fpr_macro=0.061483, fnr_macro=0.323133, auc=0.525893, latency=0.000005837s
+Fold 3/5
+B -> acc=0.126909, f1_macro=0.213245, mcc=0.139527, fpr_macro=0.059674, fnr_macro=0.375095, auc=0.532290, latency=0.000006194s
+Fold 4/5
+B -> acc=0.125602, f1_macro=0.217463, mcc=0.140638, fpr_macro=0.060869, fnr_macro=0.329494, auc=0.530042, latency=0.000005927s
+Fold 5/5
+B -> acc=0.126483, f1_macro=0.203607, mcc=0.130718, fpr_macro=0.060973, fnr_macro=0.377999, auc=0.525582, latency=0.000006257s
+================================================================================
+n = 5000
+================================================================================
+Fold 1/5
+B -> acc=0.137786, f1_macro=0.185763, mcc=0.121181, fpr_macro=0.061773, fnr_macro=0.300302, auc=0.526369, latency=0.000013728s
+Fold 2/5
+B -> acc=0.126944, f1_macro=0.194012, mcc=0.140510, fpr_macro=0.060496, fnr_macro=0.253892, auc=0.534388, latency=0.000013900s
+Fold 3/5
+B -> acc=0.142395, f1_macro=0.205582, mcc=0.141386, fpr_macro=0.061240, fnr_macro=0.302331, auc=0.534545, latency=0.000013153s
+Fold 4/5
+B -> acc=0.139184, f1_macro=0.208686, mcc=0.150247, fpr_macro=0.060651, fnr_macro=0.274408, auc=0.533262, latency=0.000013133s
+Fold 5/5
+B -> acc=0.136847, f1_macro=0.192013, mcc=0.132685, fpr_macro=0.061995, fnr_macro=0.306857, auc=0.528103, latency=0.000015024s
+================================================================================
+n = 10000
+================================================================================
+Fold 1/5
+B -> acc=0.159543, f1_macro=0.198986, mcc=0.134868, fpr_macro=0.061320, fnr_macro=0.284590, auc=0.525034, latency=0.000027544s
+Fold 2/5
+B -> acc=0.146818, f1_macro=0.209197, mcc=0.153447, fpr_macro=0.060334, fnr_macro=0.242443, auc=0.527305, latency=0.000029261s
+Fold 3/5
+B -> acc=0.157775, f1_macro=0.216567, mcc=0.152390, fpr_macro=0.060808, fnr_macro=0.289910, auc=0.519316, latency=0.000028901s
+Fold 4/5
+B -> acc=0.162136, f1_macro=0.224094, mcc=0.162271, fpr_macro=0.060647, fnr_macro=0.256284, auc=0.531387, latency=0.000025852s
+Fold 5/5
+B -> acc=0.155536, f1_macro=0.208277, mcc=0.149374, fpr_macro=0.061022, fnr_macro=0.290037, auc=0.516967, latency=0.000029141s
+================================================================================
+n = 20000
+================================================================================
+Fold 1/5
+B -> acc=0.190807, f1_macro=0.222142, mcc=0.187010, fpr_macro=0.056866, fnr_macro=0.261070, auc=0.561263, latency=0.000051562s
+Fold 2/5
+B -> acc=0.175153, f1_macro=0.229038, mcc=0.180796, fpr_macro=0.059020, fnr_macro=0.228267, auc=0.536938, latency=0.000052414s
+Fold 3/5
+B -> acc=0.192836, f1_macro=0.242585, mcc=0.196853, fpr_macro=0.057337, fnr_macro=0.268968, auc=0.546611, latency=0.000052238s
+Fold 4/5
+B -> acc=0.196448, f1_macro=0.250606, mcc=0.215834, fpr_macro=0.055949, fnr_macro=0.237267, auc=0.559075, latency=0.000053038s
+Fold 5/5
+B -> acc=0.189055, f1_macro=0.229249, mcc=0.200378, fpr_macro=0.056425, fnr_macro=0.264703, auc=0.547765, latency=0.000053074s
+================================================================================
+n = 30000
+================================================================================
+Fold 1/5
+B -> acc=0.301873, f1_macro=0.259108, mcc=0.277820, fpr_macro=0.048466, fnr_macro=0.206986, auc=0.656507, latency=0.000078141s
+Fold 2/5
+B -> acc=0.220195, f1_macro=0.264155, mcc=0.256989, fpr_macro=0.054276, fnr_macro=0.173040, auc=0.567923, latency=0.000079493s
+Fold 3/5
+B -> acc=0.247077, f1_macro=0.273178, mcc=0.268766, fpr_macro=0.051583, fnr_macro=0.220137, auc=0.588680, latency=0.000077088s
+Fold 4/5
+B -> acc=0.263297, f1_macro=0.293398, mcc=0.285197, fpr_macro=0.050687, fnr_macro=0.189200, auc=0.605943, latency=0.000087631s
+Fold 5/5
+B -> acc=0.243857, f1_macro=0.263234, mcc=0.267825, fpr_macro=0.052181, fnr_macro=0.221549, auc=0.599935, latency=0.000079767s
+================================================================================
+n = 40000
+================================================================================
+Fold 1/5
+B -> acc=0.430833, f1_macro=0.287953, mcc=0.349076, fpr_macro=0.038430, fnr_macro=0.184912, auc=0.760516, latency=0.000105388s
+Fold 2/5
+B -> acc=0.255174, f1_macro=0.278754, mcc=0.295619, fpr_macro=0.049939, fnr_macro=0.163129, auc=0.630430, latency=0.000103410s
+Fold 3/5
+B -> acc=0.307844, f1_macro=0.288064, mcc=0.309955, fpr_macro=0.046437, fnr_macro=0.204574, auc=0.665680, latency=0.000110677s
+Fold 4/5
+B -> acc=0.343713, f1_macro=0.313803, mcc=0.333625, fpr_macro=0.043857, fnr_macro=0.172791, auc=0.682117, latency=0.000112333s
+Fold 5/5
+B -> acc=0.304651, f1_macro=0.281463, mcc=0.307532, fpr_macro=0.046662, fnr_macro=0.203831, auc=0.666782, latency=0.000105794s
+Guardando reportes...
+Traceback (most recent call last):
+  File "/home/javier/TFG/04_experiments/CIC17/fase_A2_sampling_size/knn/A2__StandardScaler_pca_NM_SMOTE_knn.py", line 58, in <module>
+    ejecutar_experimento_a2_sampling_size(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        {
+        ^
+    ...<21 lines>...
+        }
+        ^
+    )
+    ^
+  File "/home/javier/TFG/04_experiments/CIC17/fase_A2_sampling_size/a2_sampling_size_runner.py", line 313, in ejecutar_experimento_a2_sampling_size
+    reporting.guardar_reportes_cv_experimento(experiment_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/javier/TFG/02_src/reporting.py", line 428, in guardar_reportes_cv_experimento
+    ruta_salida = _ruta_salida_reportes()
+  File "/home/javier/TFG/02_src/reporting.py", line 152, in _ruta_salida_reportes
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: RUTA_SALIDA_REPORTES no esta configurada. Usa configurar_reportes(...) o define la variable antes de llamar a guardar_reportes().

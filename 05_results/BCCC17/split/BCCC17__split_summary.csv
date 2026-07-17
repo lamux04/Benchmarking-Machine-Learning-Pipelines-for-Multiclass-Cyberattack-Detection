@@ -1,0 +1,4 @@
+dataset,partition,rows,columns,proportion
+BCCC17,original,2363699,64,1.0
+BCCC17,train,1890958,64,0.7999994923211458
+BCCC17,test,472741,64,0.2000005076788542

@@ -1,0 +1,3 @@
+dataset,step,rows_without_nulls,rows_with_nulls,min_class_impute,imputed_rows,removed_rows
+CIC18,before_null_handling,11982426.0,71606.0,50,,
+CIC18,after_null_handling,,,50,0.0,71606.0

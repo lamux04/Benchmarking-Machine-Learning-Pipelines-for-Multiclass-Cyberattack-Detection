@@ -1,0 +1,176 @@
+dataset,step,label,count,proportion
+CIC18,homogenize_columns,Benign,13484658,0.8306965978831207
+CIC18,homogenize_columns,DDOS attack-HOIC,686012,0.04226045884938242
+CIC18,homogenize_columns,DDoS attacks-LOIC-HTTP,576191,0.035495145922935026
+CIC18,homogenize_columns,DoS attacks-Hulk,461912,0.028455206422097472
+CIC18,homogenize_columns,Bot,286191,0.017630249876917026
+CIC18,homogenize_columns,FTP-BruteForce,193360,0.011911573446407036
+CIC18,homogenize_columns,SSH-Bruteforce,187589,0.011556062015091278
+CIC18,homogenize_columns,Infilteration,161934,0.009975634745916824
+CIC18,homogenize_columns,DoS attacks-SlowHTTPTest,139890,0.008617656234060201
+CIC18,homogenize_columns,DoS attacks-GoldenEye,41508,0.0025570210519935007
+CIC18,homogenize_columns,DoS attacks-Slowloris,10990,0.0006770179570542683
+CIC18,homogenize_columns,DDOS attack-LOIC-UDP,1730,0.00010657334537796945
+CIC18,homogenize_columns,Brute Force -Web,611,3.763948787626551e-05
+CIC18,homogenize_columns,Brute Force -XSS,230,1.416871065718669e-05
+CIC18,homogenize_columns,SQL Injection,87,5.3594688138054e-06
+CIC18,homogenize_columns,Label,59,3.6345822990174554e-06
+CIC18,remove_manual_columns,Benign,13484658,0.8306965978831207
+CIC18,remove_manual_columns,DDOS attack-HOIC,686012,0.04226045884938242
+CIC18,remove_manual_columns,DDoS attacks-LOIC-HTTP,576191,0.035495145922935026
+CIC18,remove_manual_columns,DoS attacks-Hulk,461912,0.028455206422097472
+CIC18,remove_manual_columns,Bot,286191,0.017630249876917026
+CIC18,remove_manual_columns,FTP-BruteForce,193360,0.011911573446407036
+CIC18,remove_manual_columns,SSH-Bruteforce,187589,0.011556062015091278
+CIC18,remove_manual_columns,Infilteration,161934,0.009975634745916824
+CIC18,remove_manual_columns,DoS attacks-SlowHTTPTest,139890,0.008617656234060201
+CIC18,remove_manual_columns,DoS attacks-GoldenEye,41508,0.0025570210519935007
+CIC18,remove_manual_columns,DoS attacks-Slowloris,10990,0.0006770179570542683
+CIC18,remove_manual_columns,DDOS attack-LOIC-UDP,1730,0.00010657334537796945
+CIC18,remove_manual_columns,Brute Force -Web,611,3.763948787626551e-05
+CIC18,remove_manual_columns,Brute Force -XSS,230,1.416871065718669e-05
+CIC18,remove_manual_columns,SQL Injection,87,5.3594688138054e-06
+CIC18,remove_manual_columns,Label,59,3.6345822990174554e-06
+CIC18,remove_infinite_and_empty_values,Benign,13484658,0.8306965978831207
+CIC18,remove_infinite_and_empty_values,DDOS attack-HOIC,686012,0.04226045884938242
+CIC18,remove_infinite_and_empty_values,DDoS attacks-LOIC-HTTP,576191,0.035495145922935026
+CIC18,remove_infinite_and_empty_values,DoS attacks-Hulk,461912,0.028455206422097472
+CIC18,remove_infinite_and_empty_values,Bot,286191,0.017630249876917026
+CIC18,remove_infinite_and_empty_values,FTP-BruteForce,193360,0.011911573446407036
+CIC18,remove_infinite_and_empty_values,SSH-Bruteforce,187589,0.011556062015091278
+CIC18,remove_infinite_and_empty_values,Infilteration,161934,0.009975634745916824
+CIC18,remove_infinite_and_empty_values,DoS attacks-SlowHTTPTest,139890,0.008617656234060201
+CIC18,remove_infinite_and_empty_values,DoS attacks-GoldenEye,41508,0.0025570210519935007
+CIC18,remove_infinite_and_empty_values,DoS attacks-Slowloris,10990,0.0006770179570542683
+CIC18,remove_infinite_and_empty_values,DDOS attack-LOIC-UDP,1730,0.00010657334537796945
+CIC18,remove_infinite_and_empty_values,Brute Force -Web,611,3.763948787626551e-05
+CIC18,remove_infinite_and_empty_values,Brute Force -XSS,230,1.416871065718669e-05
+CIC18,remove_infinite_and_empty_values,SQL Injection,87,5.3594688138054e-06
+CIC18,remove_infinite_and_empty_values,Label,59,3.6345822990174554e-06
+CIC18,remove_duplicate_rows,Benign,10701394,0.8877854314639284
+CIC18,remove_duplicate_rows,DDoS attacks-LOIC-HTTP,575364,0.047732078361829466
+CIC18,remove_duplicate_rows,DDOS attack-HOIC,198861,0.016497467403438118
+CIC18,remove_duplicate_rows,DoS attacks-Hulk,145199,0.012045678989403712
+CIC18,remove_duplicate_rows,Bot,144535,0.011990593686826118
+CIC18,remove_duplicate_rows,Infilteration,140610,0.011664976499149828
+CIC18,remove_duplicate_rows,SSH-Bruteforce,94048,0.00780220261568909
+CIC18,remove_duplicate_rows,DoS attacks-GoldenEye,41406,0.003435033190553999
+CIC18,remove_duplicate_rows,DoS attacks-Slowloris,9908,0.000821965629425905
+CIC18,remove_duplicate_rows,DDOS attack-LOIC-UDP,1730,0.00014352044195668304
+CIC18,remove_duplicate_rows,Brute Force -Web,555,4.6042685136392536e-05
+CIC18,remove_duplicate_rows,Brute Force -XSS,228,1.8914832812788284e-05
+CIC18,remove_duplicate_rows,SQL Injection,84,6.968622615237789e-06
+CIC18,remove_duplicate_rows,DoS attacks-SlowHTTPTest,55,4.562788617119981e-06
+CIC18,remove_duplicate_rows,FTP-BruteForce,54,4.479828824081436e-06
+CIC18,remove_duplicate_rows,Label,1,8.295979303854511e-08
+CIC18,handle_null_values_by_class,Benign,10630624,0.8871846152022971
+CIC18,handle_null_values_by_class,DDoS attacks-LOIC-HTTP,575364,0.04801732136714218
+CIC18,handle_null_values_by_class,DDOS attack-HOIC,198861,0.016596054922433906
+CIC18,handle_null_values_by_class,DoS attacks-Hulk,145199,0.012117662984106891
+CIC18,handle_null_values_by_class,Bot,144535,0.0120622484962561
+CIC18,handle_null_values_by_class,Infilteration,139775,0.011665000059253444
+CIC18,handle_null_values_by_class,SSH-Bruteforce,94048,0.007848827941854179
+CIC18,handle_null_values_by_class,DoS attacks-GoldenEye,41406,0.0034555606685991633
+CIC18,handle_null_values_by_class,DoS attacks-Slowloris,9908,0.0008268776289542702
+CIC18,handle_null_values_by_class,DDOS attack-LOIC-UDP,1730,0.00014437810840642787
+CIC18,handle_null_values_by_class,Brute Force -Web,555,4.631783246564594e-05
+CIC18,handle_null_values_by_class,Brute Force -XSS,228,1.9027866310211304e-05
+CIC18,handle_null_values_by_class,SQL Injection,84,7.010266535341007e-06
+CIC18,handle_null_values_by_class,DoS attacks-SlowHTTPTest,55,4.590055469568516e-06
+CIC18,handle_null_values_by_class,FTP-BruteForce,53,4.423144361584207e-06
+CIC18,handle_null_values_by_class,Label,1,8.345555399215485e-08
+CIC18,remove_constant_columns,Benign,10630624,0.8871846152022971
+CIC18,remove_constant_columns,DDoS attacks-LOIC-HTTP,575364,0.04801732136714218
+CIC18,remove_constant_columns,DDOS attack-HOIC,198861,0.016596054922433906
+CIC18,remove_constant_columns,DoS attacks-Hulk,145199,0.012117662984106891
+CIC18,remove_constant_columns,Bot,144535,0.0120622484962561
+CIC18,remove_constant_columns,Infilteration,139775,0.011665000059253444
+CIC18,remove_constant_columns,SSH-Bruteforce,94048,0.007848827941854179
+CIC18,remove_constant_columns,DoS attacks-GoldenEye,41406,0.0034555606685991633
+CIC18,remove_constant_columns,DoS attacks-Slowloris,9908,0.0008268776289542702
+CIC18,remove_constant_columns,DDOS attack-LOIC-UDP,1730,0.00014437810840642787
+CIC18,remove_constant_columns,Brute Force -Web,555,4.631783246564594e-05
+CIC18,remove_constant_columns,Brute Force -XSS,228,1.9027866310211304e-05
+CIC18,remove_constant_columns,SQL Injection,84,7.010266535341007e-06
+CIC18,remove_constant_columns,DoS attacks-SlowHTTPTest,55,4.590055469568516e-06
+CIC18,remove_constant_columns,FTP-BruteForce,53,4.423144361584207e-06
+CIC18,remove_constant_columns,Label,1,8.345555399215485e-08
+CIC18,encode_string_columns,Benign,10630624,0.8871846152022971
+CIC18,encode_string_columns,DDoS attacks-LOIC-HTTP,575364,0.04801732136714218
+CIC18,encode_string_columns,DDOS attack-HOIC,198861,0.016596054922433906
+CIC18,encode_string_columns,DoS attacks-Hulk,145199,0.012117662984106891
+CIC18,encode_string_columns,Bot,144535,0.0120622484962561
+CIC18,encode_string_columns,Infilteration,139775,0.011665000059253444
+CIC18,encode_string_columns,SSH-Bruteforce,94048,0.007848827941854179
+CIC18,encode_string_columns,DoS attacks-GoldenEye,41406,0.0034555606685991633
+CIC18,encode_string_columns,DoS attacks-Slowloris,9908,0.0008268776289542702
+CIC18,encode_string_columns,DDOS attack-LOIC-UDP,1730,0.00014437810840642787
+CIC18,encode_string_columns,Brute Force -Web,555,4.631783246564594e-05
+CIC18,encode_string_columns,Brute Force -XSS,228,1.9027866310211304e-05
+CIC18,encode_string_columns,SQL Injection,84,7.010266535341007e-06
+CIC18,encode_string_columns,DoS attacks-SlowHTTPTest,55,4.590055469568516e-06
+CIC18,encode_string_columns,FTP-BruteForce,53,4.423144361584207e-06
+CIC18,encode_string_columns,Label,1,8.345555399215485e-08
+CIC18,remove_highly_correlated_columns,Benign,10630624,0.8871846152022971
+CIC18,remove_highly_correlated_columns,DDoS attacks-LOIC-HTTP,575364,0.04801732136714218
+CIC18,remove_highly_correlated_columns,DDOS attack-HOIC,198861,0.016596054922433906
+CIC18,remove_highly_correlated_columns,DoS attacks-Hulk,145199,0.012117662984106891
+CIC18,remove_highly_correlated_columns,Bot,144535,0.0120622484962561
+CIC18,remove_highly_correlated_columns,Infilteration,139775,0.011665000059253444
+CIC18,remove_highly_correlated_columns,SSH-Bruteforce,94048,0.007848827941854179
+CIC18,remove_highly_correlated_columns,DoS attacks-GoldenEye,41406,0.0034555606685991633
+CIC18,remove_highly_correlated_columns,DoS attacks-Slowloris,9908,0.0008268776289542702
+CIC18,remove_highly_correlated_columns,DDOS attack-LOIC-UDP,1730,0.00014437810840642787
+CIC18,remove_highly_correlated_columns,Brute Force -Web,555,4.631783246564594e-05
+CIC18,remove_highly_correlated_columns,Brute Force -XSS,228,1.9027866310211304e-05
+CIC18,remove_highly_correlated_columns,SQL Injection,84,7.010266535341007e-06
+CIC18,remove_highly_correlated_columns,DoS attacks-SlowHTTPTest,55,4.590055469568516e-06
+CIC18,remove_highly_correlated_columns,FTP-BruteForce,53,4.423144361584207e-06
+CIC18,remove_highly_correlated_columns,Label,1,8.345555399215485e-08
+CIC18,undersample_benign_class,Benign,2126125,0.6113196165416928
+CIC18,undersample_benign_class,DDoS attacks-LOIC-HTTP,575364,0.1654330295029194
+CIC18,undersample_benign_class,DDOS attack-HOIC,198861,0.05717802587575875
+CIC18,undersample_benign_class,DoS attacks-Hulk,145199,0.041748719855247106
+CIC18,undersample_benign_class,Bot,144535,0.04155780152947431
+CIC18,undersample_benign_class,Infilteration,139775,0.040189170157970536
+CIC18,undersample_benign_class,SSH-Bruteforce,94048,0.027041395635963607
+CIC18,undersample_benign_class,DoS attacks-GoldenEye,41406,0.011905367766488486
+CIC18,undersample_benign_class,DoS attacks-Slowloris,9908,0.002848823451441045
+CIC18,undersample_benign_class,DDOS attack-LOIC-UDP,1730,0.0004974227463658668
+CIC18,undersample_benign_class,Brute Force -Web,555,0.00015957781747575494
+CIC18,undersample_benign_class,Brute Force -XSS,228,6.555629258463447e-05
+CIC18,undersample_benign_class,SQL Injection,84,2.4152318320654803e-05
+CIC18,undersample_benign_class,DoS attacks-SlowHTTPTest,55,1.5814017948047787e-05
+CIC18,undersample_benign_class,FTP-BruteForce,53,1.523896274993696e-05
+CIC18,undersample_benign_class,Label,1,2.8752759905541433e-07
+CIC18,encode_label,0,2126125,0.6113196165416928
+CIC18,encode_label,1,575364,0.1654330295029194
+CIC18,encode_label,2,198861,0.05717802587575875
+CIC18,encode_label,3,145199,0.041748719855247106
+CIC18,encode_label,4,144535,0.04155780152947431
+CIC18,encode_label,5,139775,0.040189170157970536
+CIC18,encode_label,6,94048,0.027041395635963607
+CIC18,encode_label,7,41406,0.011905367766488486
+CIC18,encode_label,8,9908,0.002848823451441045
+CIC18,encode_label,9,1730,0.0004974227463658668
+CIC18,encode_label,10,555,0.00015957781747575494
+CIC18,encode_label,11,228,6.555629258463447e-05
+CIC18,encode_label,12,84,2.4152318320654803e-05
+CIC18,encode_label,13,55,1.5814017948047787e-05
+CIC18,encode_label,14,53,1.523896274993696e-05
+CIC18,encode_label,15,1,2.8752759905541433e-07
+CIC18,remove_error_class,0,2126125,0.6113197923130049
+CIC18,remove_error_class,1,575364,0.16543307706949487
+CIC18,remove_error_class,2,198861,0.057178042316023976
+CIC18,remove_error_class,3,145199,0.04174873185915974
+CIC18,remove_error_class,4,144535,0.04155781347849264
+CIC18,remove_error_class,5,139775,0.04018918171346946
+CIC18,remove_error_class,6,94048,0.027041403411113406
+CIC18,remove_error_class,7,41406,0.01190537118961128
+CIC18,remove_error_class,8,9908,0.0028488242705566476
+CIC18,remove_error_class,9,1730,0.0004974228893886758
+CIC18,remove_error_class,10,555,0.00015957786335879488
+CIC18,remove_error_class,11,228,6.55563114338833e-05
+CIC18,remove_error_class,12,84,2.41523252651149e-05
+CIC18,remove_error_class,13,55,1.581402249501571e-05
+CIC18,remove_error_class,14,53,1.523896713156059e-05

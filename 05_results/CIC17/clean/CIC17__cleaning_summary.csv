@@ -1,0 +1,11 @@
+dataset,step,rows,columns,removed_rows,removed_columns
+CIC17,initial,2830743,79,,
+CIC17,homogenize_columns,2830743,79,0.0,0.0
+CIC17,remove_manual_columns,2830743,79,0.0,0.0
+CIC17,remove_infinite_and_empty_values,2830743,79,0.0,0.0
+CIC17,remove_duplicate_rows,2522362,79,308381.0,0.0
+CIC17,handle_null_values_by_class,2520798,79,1564.0,0.0
+CIC17,remove_constant_columns,2520798,71,0.0,8.0
+CIC17,encode_string_columns,2520798,71,0.0,0.0
+CIC17,remove_highly_correlated_columns,2520798,48,0.0,23.0
+CIC17,encode_label,2520798,48,0.0,0.0

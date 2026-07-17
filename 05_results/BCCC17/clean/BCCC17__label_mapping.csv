@@ -1,0 +1,15 @@
+dataset,original_label,encoded_label
+BCCC17,Benign,0
+BCCC17,DoS_Hulk,1
+BCCC17,Port_Scan,2
+BCCC17,DDoS_LOIT,3
+BCCC17,FTP-Patator,4
+BCCC17,DoS_GoldenEye,5
+BCCC17,DoS_Slowhttptest,6
+BCCC17,SSH-Patator,7
+BCCC17,Botnet_ARES,8
+BCCC17,DoS_Slowloris,9
+BCCC17,Web_Brute_Force,10
+BCCC17,Web_XSS,11
+BCCC17,Web_SQL_Injection,12
+BCCC17,Heartbleed,13
