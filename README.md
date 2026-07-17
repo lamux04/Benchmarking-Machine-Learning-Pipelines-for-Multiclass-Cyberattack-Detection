@@ -204,7 +204,7 @@ These results highlight an important limitation: strong aggregate metrics do not
 <!-- Add the English-labelled normalized confusion matrix here. -->
 
 ```markdown
-![Normalized confusion matrix](05_results/CIC17/figures/confusion-matrix-knn.png)
+![Normalized confusion matrix](05_results/CIC17/fase_C_no_pca/knn/C__StandardScaler_no_pca_NONE_knn/figures/CIC17__C__StandardScaler_no_pca_NONE_knn__holdout_confusion_matrix.png)
 ```
 
 ---
